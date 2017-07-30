@@ -29,7 +29,7 @@ foreach ($shuf as $k => $v) {
 			if (next($v)) {			//ставим зпт, если есть еще тварь
 				echo $fan.', ';
 			}else {
-				echo $fan.' ';
+				echo $fan.'.';
 			}
 		}
 	}
